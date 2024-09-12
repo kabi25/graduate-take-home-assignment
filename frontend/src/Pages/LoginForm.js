@@ -76,13 +76,14 @@ function LoginForm() {
                 </Form.Control.Feedback>
               </Form.Group>
             </Row>
-            <Button
+            <Link
               variant="success"
               type="submit"
               className="btn btn-success mt-2 fw-semibold text-uppercase w-100"
+              to="/user-profile"
             >
               Sign in
-            </Button>
+            </Link>
             <h6 className="mt-3">
               Don't Have An Account? <Link to="/sign-up">Sign Up</Link>
             </h6>
